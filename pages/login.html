@@ -23,16 +23,29 @@
     </header>
 
     <div class="wrapper">
-      <form>
-        <h1>LogIn</h1>
+      <!-- <h1 id="message" style="display: none"></h1> -->
+      <form id="form-login">
+        <h1 id="message">LogIn</h1>
 
         <div class="inputbox">
-          <input type="email" placeholder="Enter Your Email" required />
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter Your Email"
+            required
+          />
           <i class="bx bxs-user"></i>
         </div>
 
         <div class="inputbox">
-          <input type="Password" placeholder="Enter Your Password" required />
+          <input
+            id="password"
+            name="password"
+            type="Password"
+            placeholder="Enter Your Password"
+            required
+          />
           <i class="bx bxs-lock-alt"></i>
         </div>
 
@@ -49,6 +62,6 @@
       </form>
     </div>
 
-    <script src="/scripts/index.js" type="module"></script>
+    <script src="/scripts/login.js" type="module"></script>
   </body>
 </html>
